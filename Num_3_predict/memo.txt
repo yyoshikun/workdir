@@ -1,0 +1,9 @@
+１．当日の抽選結果は日時の場所へ記入する
+２．最終行には次回の抽選日、全体平均値、各ナンバー　を記入してから上書き保存する
+３．code_No012　のデータ行番号に+1を加算する(rowsの番号)
+４．code_No027　のデータ行番号に+1を加算する(rowsの番号)
+
+５．C:\Users\yoshikoshi\python_y\Num_3_predict\01_output\Excel_Book_Test
+Num_3_2023_Challeng history.xlsx
+Num_3_2023_prediction_0816.xlsx
+の日付けと当選番号を更新する
