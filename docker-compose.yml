@@ -16,5 +16,5 @@ services:
     volumes:
     - .:/workdir
     
-    command: start.sh jupyter lab
+    # command: start.sh jupyter lab
     
