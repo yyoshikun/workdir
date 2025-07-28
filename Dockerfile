@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:python-3.9.13
+FROM jupyter/datascience-notebook:python-3.10.9
 USER root
 
 RUN apt-get update
@@ -13,6 +13,9 @@ ENTRYPOINT [ "jupyter-lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--al
 CMD [ "--notebook-dir=/workdir" ]
 
 
+
+#20250724へ変更
+# FROM jupyter/datascience-notebook:python-3.10.9
 
 #20230811_追加したけど動作しない
 
